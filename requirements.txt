@@ -1,0 +1,22 @@
+fastapi==0.128.0
+uvicorn[standard]==0.40.0
+# The [schema-registry] extra is critical; it pulls most dependencies automatically
+confluent-kafka[schema-registry]>=2.8.0
+google-cloud-aiplatform==1.132.0
+google-genai>=1.56.0
+google-cloud-secret-manager==2.26.0
+ddtrace==4.1.1
+requests==2.32.4
+python-dotenv==1.2.1
+pydantic==2.12.5
+attrs>=25.4.0
+
+# --- Explicit Dependencies to Fix Import Errors ---
+# These are required by the Confluent Async Schema Registry Client
+Authlib>=1.3.0
+httpx>=0.27.0
+jsonschema>=4.17.3
+referencing>=0.30.0
+orjson>=3.9.0
+# NEW: Twilio SDK
+twilio>=9.9.0

@@ -1,2 +1,3 @@
-# hypercure-backend
-HyperCURE Backend and AI Orchestra
+# HyperCURE - Manufacturing Assurance
+
+HyperCURE Backend - Production 
